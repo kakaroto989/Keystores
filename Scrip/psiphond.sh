@@ -42,7 +42,7 @@ echo -e "$ipvps" > $file_ip
         wget 'https://docs.google.com/uc?export=download&id=1AuP6XISWohM0NbUyItnQeN1F7Ayj85Ez' -O 'psiphond'
         chmod 775 psiphond
         ./psiphond --ipaddress 0.0.0.0 --protocol FRONTED-MEEK-HTTP-OSSH:80 --protocol FRONTED-MEEK-OSSH:443 generate
-     ##   apt install screen -y
+       apt install screen -y
 }
 
 ## INSTALACION
